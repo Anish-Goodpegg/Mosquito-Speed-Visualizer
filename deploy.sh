@@ -3,9 +3,12 @@
 echo "🔁 Building your Next.js app..."
 npm run build
 
+echo "💬 Enter commit message:"
+read commit_message
+
 echo "🚀 Committing and pushing to GitHub..."
 git add .
-git commit -m "🚀 Auto-deploy at $(date)"
+git commit -m "$commit_message"
 git push origin main
 
 echo "✅ Done!"
