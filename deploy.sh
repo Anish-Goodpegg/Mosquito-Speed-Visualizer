@@ -1,3 +1,4 @@
+# Added automation
 #!/bin/bash
 
 echo "🔁 Building your Next.js app..."
