@@ -1,3 +1,4 @@
+// This file is autmatically deployed on Github with one command i.e. ./deploy.sh
 'use client';
 import { useState } from 'react';
 import SpeedSelector from '../../components/SpeedSelector';
